@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>vision</name>
+  <version>0.0.0</version>
+  <description>Example package for using http://wjwwood.io/serial/ library</description>
+
+  <author email="garyservin@gmail.com">Gary Servin</author>
+
+  <maintainer email="garyservin@gmail.com">Gary Servin</maintainer>
+
+  <license>BSD</license>
+     <build_depend>message_generation</build_depend>
+
+     <run_depend>message_runtime</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>darknet_ros_msgs</build_depend>
+  <build_depend>vision_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>darknet_ros_msgs</run_depend>
+  <run_depend>vision_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+
+
+</package>
